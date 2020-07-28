@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import logo from './logo.svg';
-
 import PromotionCard from './components/Promotion/Card/Card';
+
 
 const App = () => {
 
