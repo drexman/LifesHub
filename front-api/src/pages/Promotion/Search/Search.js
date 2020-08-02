@@ -1,4 +1,5 @@
 import React from 'react'
+import axios from 'axios'
 
 import PromotionCard from 'components/Promotion/Card/Card';
 const promotion =
@@ -17,6 +18,9 @@ const promotion =
 };
 
 const PagesPromotionSearch = () => {
+
+    axios.get('/http://')
+
     return (
         <div style={{
             maxWidth: 800,
